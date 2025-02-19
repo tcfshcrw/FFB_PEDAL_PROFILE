@@ -83,6 +83,20 @@
       "Version": "0.0.1",
       "FileName": "captainchris-throttle.json",
       "Description": ""
+    },
+    {
+      "Author": "jgherruzo",
+      "ProfileName": "jgh_Throttle",
+      "Version": "0.0.1",
+      "FileName": "jgh_throttle_rally.json",
+      "Description": "Inverted mounting pedals."
+    },
+    {
+      "Author": "jgherruzo",
+      "ProfileName": "jgh_Brake",
+      "Version": "0.2.0",
+      "FileName": "jgh_brake_rally_2.json",
+      "Description": "Inverted mounting pedals"
     }
   ]
 }

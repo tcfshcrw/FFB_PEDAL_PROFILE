@@ -1,12 +1,12 @@
 {
   "payloadFooter_": {
-    "checkSum": 6904
+    "checkSum": 22007
   },
   "payloadHeader_": {
     "PedalTag": 2,
     "payloadType": 100,
     "storeToEeprom": 1,
-    "version": 142
+    "version": 144
   },
   "payloadPedalConfig_": {
     "BP_amp": 54,
@@ -21,12 +21,12 @@
     "G_window": 10,
     "Impact_multi": 35,
     "Impact_window": 30,
-    "MPC_0th_order_gain": 0.7,
-    "MPC_1st_order_gain": 0,
+    "MPC_0th_order_gain": 6.2,
+    "MPC_1st_order_gain": 0.12,
     "MPC_2nd_order_gain": 0,
-    "PID_d_gain": 0,
-    "PID_i_gain": 1,
-    "PID_p_gain": 0.01,
+    "PID_d_gain": 0.001,
+    "PID_i_gain": 8,
+    "PID_p_gain": 0.5,
     "PID_velocity_feedforward_gain": 0,
     "RPM_AMP": 3,
     "RPM_max_freq": 40,
@@ -35,10 +35,10 @@
     "Simulate_ABS_value": 100,
     "WS_amp": 0,
     "WS_freq": 15,
-    "absAmplitude": 5,
+    "absAmplitude": 4,
     "absForceOrTarvelBit": 0,
-    "absFrequency": 25,
-    "absPattern": 0,
+    "absFrequency": 20,
+    "absPattern": 1,
     "control_strategy_b": 0,
     "cubic_spline_param_a_0": -3.55271368E-15,
     "cubic_spline_param_a_1": 0,
@@ -55,7 +55,7 @@
     "debug_flags_0": 0,
     "invertLoadcellReading_u8": 0,
     "invertMotorDirection_u8": 0,
-    "kf_modelNoise": 2,
+    "kf_modelNoise": 1,
     "kf_modelOrder": 0,
     "lengthPedal_a": 255,
     "lengthPedal_b": 160,
@@ -63,13 +63,13 @@
     "lengthPedal_c_vertical": 57,
     "lengthPedal_d": 20,
     "lengthPedal_travel": 68,
-    "loadcell_rating": 100,
-    "maxForce": 12,
+    "loadcell_rating": 25,
+    "maxForce": 13,
     "maxGameOutput": 100,
     "pedalEndPosition": 77,
     "pedalStartPosition": 19,
     "pedal_type": 2,
-    "preloadForce": 2,
+    "preloadForce": 1.99999988,
     "relativeForce_p000": 0,
     "relativeForce_p020": 20,
     "relativeForce_p040": 40,
@@ -77,7 +77,7 @@
     "relativeForce_p080": 80,
     "relativeForce_p100": 100,
     "spindlePitch_mmPerRev_u8": 5,
-    "stepLossFunctionFlags_u8": 0,
+    "stepLossFunctionFlags_u8": 3,
     "travelAsJoystickOutput_u8": 0
   }
 }

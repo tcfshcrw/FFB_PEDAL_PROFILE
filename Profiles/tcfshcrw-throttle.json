@@ -1,12 +1,12 @@
 {
   "payloadFooter_": {
-    "checkSum": 22007
+    "checkSum": 46843
   },
   "payloadHeader_": {
     "PedalTag": 2,
     "payloadType": 100,
     "storeToEeprom": 1,
-    "version": 144
+    "version": 145
   },
   "payloadPedalConfig_": {
     "BP_amp": 54,
@@ -25,8 +25,8 @@
     "MPC_1st_order_gain": 0.12,
     "MPC_2nd_order_gain": 0,
     "PID_d_gain": 0.001,
-    "PID_i_gain": 8,
-    "PID_p_gain": 0.5,
+    "PID_i_gain": 1,
+    "PID_p_gain": 0.03,
     "PID_velocity_feedforward_gain": 0,
     "RPM_AMP": 3,
     "RPM_max_freq": 40,
@@ -55,7 +55,9 @@
     "debug_flags_0": 0,
     "invertLoadcellReading_u8": 0,
     "invertMotorDirection_u8": 0,
+    "kf_Joystick_u8": 1,
     "kf_modelNoise": 1,
+    "kf_modelNoise_joystick": 255,
     "kf_modelOrder": 0,
     "lengthPedal_a": 255,
     "lengthPedal_b": 160,

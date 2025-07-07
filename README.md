@@ -1,20 +1,25 @@
-# FFB_PEDAL_PROFILE
-For user that using DIY FFB Pedal to sotre the config for online sharing.<br>
+# FFB Pedal Profiles
 
-## How to Share the config here
+This repository stores configuration profiles for DIY force-feedback (FFB) pedals so users can share them online.
 
-### Create the Fork of this repo
-To crate the fork of your won for editing.<br>
-<img src="https://github.com/tcfshcrw/FFB_PEDAL_PROFILE/blob/main/image/make-a-fork.png" width="500"><br>
-### Put the Exported Online config in Profiles folder
-Put the config you export into the Profiles folder.<br>
-<img src="https://github.com/tcfshcrw/FFB_PEDAL_PROFILE/blob/main/image/profile-location.png" width="500"><br>
-### Edit main.json
-<img src="https://github.com/tcfshcrw/FFB_PEDAL_PROFILE/blob/main/image/Tempelete-main-json.png" width="500"><br>
-Edit the main.json, Copy the TEMPLATE section and paste in below prior to TEMPLATE2.<br>
-Fill the Author, ProfileName, Version and Description.<br>
-The FileName should be the same with the name of config you put in Profiles folder.<br>
-### Make a Pull request from your fork
-<img src="https://github.com/tcfshcrw/FFB_PEDAL_PROFILE/blob/main/image/make-PR.png" width="500"><br>
-The final steps, create the Pull request from the fork you created, will merge into this repo once approved.<br>
-After merging, you will see the online config in DIY FFB Pedal plugin.
+## Contributing Your Configuration
+
+1. **Fork this repository**  
+   Create a personal fork so you can add or edit files.  
+   ![Create a fork](https://github.com/tcfshcrw/FFB_PEDAL_PROFILE/blob/main/image/make-a-fork.png)
+
+2. **Add your exported profile**  
+   Copy the profile you exported from the plugin into the **`Profiles`** folder.  
+   ![Profile location](https://github.com/tcfshcrw/FFB_PEDAL_PROFILE/blob/main/image/profile-location.png)
+
+3. **Update `main.json`**  
+   ![Template in main.json](https://github.com/tcfshcrw/FFB_PEDAL_PROFILE/blob/main/image/Tempelete-main-json.png)  
+   - Copy the **`TEMPLATE`** block and paste it just above **`TEMPLATE2`**.  
+   - Fill in **`Author`**, **`ProfileName`**, **`Version`**, and **`Description`**.  
+   - Set **`FileName`** to match the file you placed in the **`Profiles`** folder.
+
+4. **Open a pull request**  
+   Push your changes to your fork and open a pull request back to this repository.  
+   ![Create a pull request](https://github.com/tcfshcrw/FFB_PEDAL_PROFILE/blob/main/image/make-PR.png)
+
+After the pull request is approved and merged, your configuration will appear in the DIY FFB Pedal plugin’s online list.

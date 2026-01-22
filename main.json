@@ -97,6 +97,13 @@
       "Version": "0.2.0",
       "FileName": "jgh_brake_rally_2.json",
       "Description": "Inverted mounting pedals"
+    },
+    {
+      "Author": "DocWalt",
+      "ProfileName": "Ken6",
+      "Version": "0.0.1",
+      "FileName": "Ken6.json",
+      "Description": "My config to feel more like a normal car like the GR86 or something in iRacing. Works fine with GT3 cars and such, just a bit softer than they are IRL"
     }
   ]
 }

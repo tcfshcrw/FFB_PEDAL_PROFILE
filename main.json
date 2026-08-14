@@ -10,16 +10,16 @@
     {
       "Author": "tcfshcrw",
       "ProfileName": "tcfshcrw-Brake",
-      "Version": "0.0.3",
+      "Version": "0.0.4",
       "FileName": "tcfshcrw-brake.json",
-      "Description": "For common usage, no specific car or games, updated for DAP160"
+      "Description": "For common usage, no specific car or games, updated for DAP162"
     },
     {
       "Author": "tcfshcrw",
       "ProfileName": "tcfshcrw-Throttle",
-      "Version": "0.0.5",
+      "Version": "0.0.6",
       "FileName": "tcfshcrw-throttle.json",
-      "Description": "50kg rated loadcell, for DAP 160"
+      "Description": "50kg rated loadcell, for DAP 162"
     },
     {
       "Author": "captainchris",
